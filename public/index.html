@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <title>Converter</title>
+</head>
+<body class="bg-gray-400">
+    <header 
+    class="bg-blue-950 h-72 w-">
+        <h1 
+        class="text-white font-bold text-center p-5 no-scrollbar">
+
+            Metric/Imperial Unit Conversion
+        </h1>
+
+        <input
+            id="number--input"
+            default = 0
+            required
+            type= "number"
+            class="bg-transparent p-1 block m-2 mx-auto h-20 w-2/12 border-white border-2 rounded  text-white text-center font-sans font-bold text-2xl"
+        >
+
+        <button id="convert--btn"
+            class= "block m-5 mx-auto border-0 rounded w-2/12 p-1 bg-white "
+        >
+            Convert
+        </button>
+        
+
+    </header>
+    <main>
+        <div id="length--div" class="w-5/6 h-28 bg-white m-5 mx-auto " >
+
+            <h2 
+            class="font-bold text-center p-1 text-blue-950 ">
+
+                Length (Meter/Feet)
+
+            </h2>
+            <div id="length--paragraph">
+                
+            </div>
+            
+
+        </div>
+
+
+        <div class="w-5/6 h-28 bg-white m-5 mx-auto" >
+
+            <h2 class="font-bold text-center p-1 text-blue-950">
+                Volume (Liters/Gallons)
+            </h2>
+
+            <div id="volume--paragraph">
+                
+            </div>
+
+        </div>
+        <div class=" w-5/6 h-28 bg-white m-5 mx-auto" >
+
+            <h2 class="font-bold text-center p-1 text-blue-950">
+                Mass (Kilograms/Pounds)
+            </h2>
+
+            <div id="mass--paragraph">
+                
+            </div>
+
+        </div>
+    </main>
+
+    <script src="../src/script.js"></script>
+
+</body>
+</html>
